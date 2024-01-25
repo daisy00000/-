@@ -172,7 +172,7 @@ conn.commit()
 
 # 建立當日圖庫
 current_time = datetime.datetime.now().strftime('%Y-%m-%d')
-today_file = os.path.join('./main/crop_img', current_time)
+today_file = os.path.join('./fundation/crop_img', current_time)
 if not os.path.exists(today_file):
     os.makedirs(today_file)
 ######################################################################################
@@ -201,11 +201,8 @@ class VideoTracker(object):
         self.total_people_outcount = 0  # 歷史人數
 
         self.facenet = InceptionResnetV1(pretrained='vggface2').eval()
-        ##
-        #sender_email = 'kitty46978@gmail.com'  # 你的email
-        #password = 'mrxm ftjv sqyg llvm'  # 應用程式密碼
-        self.sender_email = 'project777test@gmail.com'  # 你的email
-        password = 'dasm diug vfry ayyw'  # 應用程式密碼
+        self.sender_email = 'mcutest000@gmail.com'  # 你的email
+        password = 'aijd aolm jyfu ahmo'  # 應用程式密碼
         # 建立 MIMEMultipart 和 smtp 連接
         self.msg = MIMEMultipart()
         self.smtp_server = smtplib.SMTP('smtp.gmail.com', 587)
@@ -680,7 +677,7 @@ def setting():
 
     # deepsort參數
     parser.add_argument("--config_deepsort", type=str,
-                        default="./main/configs/deep_sort.yaml")
+                        default="./fundation/configs/deep_sort.yaml")
 
     args = parser.parse_args()
     return args
