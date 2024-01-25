@@ -1,0 +1,16 @@
+opencv-python==4.5.3.56
+numpy==1.19.5
+tensorflow
+torch
+facenet==1.0.5
+mysql==0.0.3
+mysql-connector==2.2.9
+mysql-connector-python==8.1.0
+PyPDF2==3.0.1
+PyQt5==5.15.9
+PyQtChart==5.15.6
+scikit-learn==1.1.3
+scipy==1.9.3
+tensorflow==2.14.0
+openpyxl==3.1.2
+reportlab==4.0.6
