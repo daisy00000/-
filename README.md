@@ -21,8 +21,6 @@
 
 ![Untitled 1](https://github.com/daisy00000/Pedestrian-flow-monitoring-Detections-in-Library-by-Using-Deep-Learning-Technology/assets/121708806/278df149-4f1f-4fee-94e2-41a859c26a2c)
 
-![Untitled](%E9%81%8B%E7%94%A8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%96%BC%E5%9C%96%E6%9B%B8%E9%A4%A8%E4%BA%BA%E6%B5%81%E7%9B%A3%E6%8E%A7%20296af6541b5a413b98fe5400b3f6380a/Untitled.png)
-
 ### 系統架構
 
 系統架構將詳細介紹整個系統的架構流程。一旦啟動系統，即時監控影像將顯示在主畫面上。透過MTCNN進行人臉偵測，當有入館者被捕捉到時，系統將截取其臉部截圖，接著利用FaceNet進行特徵值提取，再透過DeepSort進行人臉追蹤。當人員離開館時，再次利用FaceNet進行人臉比對，以確認離館者在當日進館人員資料庫中的身分，隨後將其移至歷史資料庫。
