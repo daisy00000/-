@@ -19,6 +19,8 @@
 - **統計功能**：根據設定的起訖日期和圖表類型（如長條圖或折線圖），繪製人數統計圖和人數趨勢分析圖。還提供匯出功能，支援 CSV、EXCEL、圖片（.jpg）和 PDF 格式。
 - **設定功能**：包括管理特殊名單和通知名單。可以新增、修改和刪除特殊名單中的人員資料，以及新增、修改和刪除通知名單中的對象。
 
+![Untitled 1](https://github.com/daisy00000/Pedestrian-flow-monitoring-Detections-in-Library-by-Using-Deep-Learning-Technology/assets/121708806/278df149-4f1f-4fee-94e2-41a859c26a2c)
+
 ![Untitled](%E9%81%8B%E7%94%A8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%96%BC%E5%9C%96%E6%9B%B8%E9%A4%A8%E4%BA%BA%E6%B5%81%E7%9B%A3%E6%8E%A7%20296af6541b5a413b98fe5400b3f6380a/Untitled.png)
 
 ### 系統架構
