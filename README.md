@@ -18,8 +18,7 @@
 - **查詢功能**：允許根據特定條件進行查詢。可以按照時間段、ID、姓名、學號、員編或圖片進行查詢，查詢結果將顯示在右側的表格中。
 - **統計功能**：根據設定的起訖日期和圖表類型（如長條圖或折線圖），繪製人數統計圖和人數趨勢分析圖。還提供匯出功能，支援 CSV、EXCEL、圖片（.jpg）和 PDF 格式。
 - **設定功能**：包括管理特殊名單和通知名單。可以新增、修改和刪除特殊名單中的人員資料，以及新增、修改和刪除通知名單中的對象。
-
-![Untitled 1](https://github.com/daisy00000/Pedestrian-flow-monitoring-Detections-in-Library-by-Using-Deep-Learning-Technology/assets/121708806/278df149-4f1f-4fee-94e2-41a859c26a2c)
+![Untitled](https://github.com/daisy00000/Pedestrian-flow-monitoring-Detections-in-Library-by-Using-Deep-Learning-Technology/assets/121708806/48573e3e-303e-4203-a7e0-8633e10eea42)
 
 ### 系統架構
 
@@ -31,8 +30,7 @@
     - 用於深度學習的多目標追蹤演算法，結合利用深度學習得到的特徵提取和外觀模型，專為實現高效而準確的目標追蹤而設計。
 3. **FaceNet** 
     - 用於深度學習的人臉辨識演算法，透過三層卷積神經網路（CNN）從人臉圖像中提取特徵來實現準確的人臉比對。
-
-![Untitled](%E9%81%8B%E7%94%A8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%96%BC%E5%9C%96%E6%9B%B8%E9%A4%A8%E4%BA%BA%E6%B5%81%E7%9B%A3%E6%8E%A7%20296af6541b5a413b98fe5400b3f6380a/Untitled%201.png)
+![Untitled 1](https://github.com/daisy00000/Pedestrian-flow-monitoring-Detections-in-Library-by-Using-Deep-Learning-Technology/assets/121708806/6d274750-9230-46d2-97d8-fe3a7e5d329a)
 
 ## 介面設計
 
@@ -52,8 +50,7 @@
         - 有人：顯示尚未離館人數以及列出所有未離館者的詳細資料，可手動將資料刪除
 - 即時顯示對應人數和時間
 - 偵測到特殊人士會立即顯示名字、發送警訊並寄送Email通知管理人員
-
-![Untitled](%E9%81%8B%E7%94%A8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%96%BC%E5%9C%96%E6%9B%B8%E9%A4%A8%E4%BA%BA%E6%B5%81%E7%9B%A3%E6%8E%A7%20296af6541b5a413b98fe5400b3f6380a/Untitled%202.png)
+![Untitled 2](https://github.com/daisy00000/Pedestrian-flow-monitoring-Detections-in-Library-by-Using-Deep-Learning-Technology/assets/121708806/ccf2b6c5-4f34-447b-b8c1-403d055dd84f)
 
 ### 查詢頁面
 
@@ -62,8 +59,7 @@
 - 可以使用時間段、ID、姓名、學號、員編、圖片進行查詢，查詢結果將顯示在右側的表格中。
 - 右下方的框可以勾選，只顯示特殊名單在右側的表格中。
 - 右下方的新增按鈕可以用來新增特殊名單，只需勾選所需的資料並填寫姓名、學號即可。
-
-![Untitled](%E9%81%8B%E7%94%A8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%96%BC%E5%9C%96%E6%9B%B8%E9%A4%A8%E4%BA%BA%E6%B5%81%E7%9B%A3%E6%8E%A7%20296af6541b5a413b98fe5400b3f6380a/Untitled%203.png)
+![Untitled 3](https://github.com/daisy00000/Pedestrian-flow-monitoring-Detections-in-Library-by-Using-Deep-Learning-Technology/assets/121708806/3a3edda3-dbf5-4678-a956-df63be35d15d)
 
 ### 統計頁面
 
@@ -84,8 +80,7 @@
     | 一年以上 | 月、年 |
 - 設定匯出圖表的格式
     - CSV、EXCEL、Image(.jpg)、PDF
-
-![Untitled](%E9%81%8B%E7%94%A8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%96%BC%E5%9C%96%E6%9B%B8%E9%A4%A8%E4%BA%BA%E6%B5%81%E7%9B%A3%E6%8E%A7%20296af6541b5a413b98fe5400b3f6380a/Untitled%204.png)
+![Untitled 4](https://github.com/daisy00000/Pedestrian-flow-monitoring-Detections-in-Library-by-Using-Deep-Learning-Technology/assets/121708806/ba2decc7-24c3-4b31-b10b-5c53a744ea87)
 
 ### 設定頁面
 
@@ -93,8 +88,7 @@
 
 - 通知對象設定: 輸入姓名及電子郵件後即可新增至通知對象名單，會立即顯示於右上角的表格中。也可以透過勾選右上角表格的項目進行修改及刪除通知對象的資料。
 - 特殊名單設定: 輸入三個必填項目(姓名、學號/員編、正臉照)即可新增至特殊名單，立即會顯示在右下角的表格中。也可以透過勾選右上角表格的項目進行修改及刪除特殊名單的資料。
-
-![Untitled](%E9%81%8B%E7%94%A8%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E6%96%BC%E5%9C%96%E6%9B%B8%E9%A4%A8%E4%BA%BA%E6%B5%81%E7%9B%A3%E6%8E%A7%20296af6541b5a413b98fe5400b3f6380a/Untitled%205.png)
+![Untitled 5](https://github.com/daisy00000/Pedestrian-flow-monitoring-Detections-in-Library-by-Using-Deep-Learning-Technology/assets/121708806/07fb33b4-09c6-46d7-a020-9e077731a1a6)
 
 ## **使用的硬體設備**
 
