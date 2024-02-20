@@ -3,6 +3,7 @@ numpy==1.19.5
 tensorflow
 torch
 facenet==1.0.5
+facenet-pytorch==2.5.3
 mysql==0.0.3
 mysql-connector==2.2.9
 mysql-connector-python==8.1.0
